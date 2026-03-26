@@ -1,6 +1,8 @@
 # Software Testing & Quality Assurance 2CWK70 - Scoops2Go
 
-This repository shows the test cases and unit tests created during my university assignemnt to test the Scoops2Go software. The software intentionally includes errors so that testing could reveal them.
+This repository shows the test cases and unit tests created during my university assignment to test the Scoops2Go software. The software intentionally includes errors so that testing could reveal them.
+
+Unit tests were writted using the JUnit and Mockito libraries. Other forms of testing are shown in the Test cases excel sheet.
 
 ## Your details
 
