@@ -1,0 +1,24 @@
+name: Testability Enhancement
+description: Suggest a code enhancement
+title: "[Enhancement]: "
+labels: ["Testability enhancement"]
+projects: ["2cwk70-ethanthestudent28"]
+type: testability
+body:
+  - type: textarea
+    id: limitation
+    attributes:
+      label: Description of limitation
+      description: Please explain what is limiting testability
+    validations:
+      required: true
+  - type: textarea
+    id: proposedchange
+    attributes:
+      label: Code improvement
+      description: How can the code be improved?
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: How does the proposed change improve software testability?

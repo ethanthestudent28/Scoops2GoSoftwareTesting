@@ -1,0 +1,25 @@
+name: Security Report
+description: File a security report
+title: "[Security]: "
+labels: ["Status - New"]
+projects: ["2cwk70-ethanthestudent28"]
+type: security
+body:
+  - type: textarea
+    id: issuedescription
+    attributes:
+      label: Description of issue
+      description: Please explain what the Security issue is
+      placeholder: ex. There is a SQL injection risk.
+    validations:
+      required: true
+  - type: textarea
+    id: structuredescription
+    attributes:
+      label: Code structure
+      description: How is the code factored well/How could it be improved?
+  - type: textarea
+    id: improvementsteps
+    attributes:
+      label: Security solution
+      description: How can the program be changed to prevent this risk?

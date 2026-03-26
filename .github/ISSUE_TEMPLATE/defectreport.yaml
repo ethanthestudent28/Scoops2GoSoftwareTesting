@@ -1,0 +1,53 @@
+name: Defect Report
+description: File a defect report
+title: "[Defect]: "
+labels: ["Status - New"]
+projects: ["2cwk70-ethanthestudent28"]
+type: defect
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of defect
+      description: Please explain what the defect is
+      placeholder: ex. I am not able to see the home page
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: How has the issue been identified?
+      multiple: true
+      options:
+        - Browser
+        - Postman
+        - Snyk
+        - Unit Tests
+        - WAVE
+    validations:
+      required: true
+  - type: input
+    id: browserversion
+    attributes:
+      label: If applicable, which browser and which version are you using?
+      placeholder: ex. Version 1.100.30.1
+    validations:
+      required: true
+  - type: textarea
+    id: reproducesteps
+    attributes:
+      label: Please describe the steps taken to replicate the issue
+    validations:
+      required: true
+  - type: input
+    id: expectedresult
+    attributes:
+      label: What was expected from the system?
+    validations:
+      required: true
+  - type: input
+    id: actualresult
+    attributes:
+      label: What was the actual result?
+    validations:
+      required: true
